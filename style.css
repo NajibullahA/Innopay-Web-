@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('img/1.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
+
+.header__heading {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: -0.8em;
+    font-size: 73.8px;
+    line-height: 97px;
+    letter-spacing: 0.8em;
+    color: #FFFFFF;
+}
+
+.heading {
+    padding-top: 120px;
+    height: 136px;
+}
+
+.header__comping-soon {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45.9px;
+    margin-right: -1.07em;
+    line-height: 60px;
+    letter-spacing: 1.07em;
+    padding: 0;
+    color: #DBD5D5;
+}
+
+.comming-soon {
+    position: absolute;
+    top: 300px;
+    justify-content: center;
+    padding: 0;
+}
+
+.phone-number {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__Phone-number {
+    position: absolute;
+    width: 182px;
+    height: 32px;
+    top: 700px;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 400px;
+    height: 26px;
+    background-color: #BBB1B1;
+    border-radius: 50px;
+    color: white;
+    top: 400px;
+}
+
+.progress-bar::before {
+    content: attr(data-label);
+    display: flex;
+    height: 20px;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 5px;
+    width: calc(var(--width, 0) * 1%);
+    min-width: 0rem;
+    max-width: calc(50% - 3em);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 0em;
+}
+
+.percentage {
+    position: absolute;
+    top: 431px;
+}
+
+.progress-bar__percent {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
