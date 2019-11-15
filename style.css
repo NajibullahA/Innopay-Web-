@@ -114,3 +114,367 @@ header {
     text-align: center;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 1026px) {
+    .heading {
+        padding-top: 300px;
+    }
+    .header__heading {
+        margin-right: -1.2em;
+        font-size: 55.8px;
+        line-height: 60px;
+        letter-spacing: 1.2em;
+    }
+    .header__comping-soon {
+        font-size: 55.9px;
+        margin-right: -0.7em;
+        line-height: 250px;
+        letter-spacing: 0.7em;
+    }
+    .comming-soon {
+        top: 450px;
+    }
+    .percentage {
+        position: absolute;
+        top: 730px;
+    }
+    .progress-bar__percent {
+        font-size: 15px;
+        line-height: 0px;
+    }
+    .progress-bar {
+        width: 330px;
+        height: 25px;
+        top: 690px;
+    }
+    .progress-bar::before {
+        height: 20px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 1220px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .heading {
+        padding-top: 240px;
+    }
+    .header__heading {
+        margin-right: -1.2em;
+        font-size: 45.8px;
+        line-height: 50px;
+        letter-spacing: 1.2em;
+    }
+    .header__comping-soon {
+        font-size: 43.9px;
+        margin-right: -0.7em;
+        line-height: 250px;
+        letter-spacing: 0.7em;
+    }
+    .comming-soon {
+        top: 360px;
+    }
+    .percentage {
+        position: absolute;
+        top: 565px;
+    }
+    .progress-bar__percent {
+        font-size: 15px;
+        line-height: 0px;
+    }
+    .progress-bar {
+        width: 280px;
+        height: 25px;
+        top: 530px;
+    }
+    .progress-bar::before {
+        height: 20px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 920px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .heading {
+        padding-top: 160px;
+    }
+    .header__heading {
+        margin-right: -0.7em;
+        font-size: 32.8px;
+        line-height: 50px;
+        letter-spacing: 0.7em;
+    }
+    .header__comping-soon {
+        font-size: 30.9px;
+        margin-right: -0.3em;
+        line-height: 250px;
+        letter-spacing: 0.6em;
+    }
+    .comming-soon {
+        top: 200px;
+    }
+    .percentage {
+        position: absolute;
+        top: 390px;
+    }
+    .progress-bar__percent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .progress-bar {
+        width: 220px;
+        height: 15px;
+        top: 370px;
+    }
+    .progress-bar::before {
+        height: 10px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 620px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .heading {
+        padding-top: 160px;
+    }
+    .header__heading {
+        margin-right: -0.7em;
+        font-size: 32.8px;
+        line-height: 50px;
+        letter-spacing: 0.7em;
+    }
+    .header__comping-soon {
+        font-size: 30.9px;
+        margin-right: -0.3em;
+        line-height: 250px;
+        letter-spacing: 0.6em;
+    }
+    .comming-soon {
+        top: 200px;
+    }
+    .percentage {
+        position: absolute;
+        top: 390px;
+    }
+    .progress-bar__percent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .progress-bar {
+        width: 220px;
+        height: 15px;
+        top: 370px;
+    }
+    .progress-bar::before {
+        height: 10px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 620px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .heading {
+        padding-top: 160px;
+    }
+    .header__heading {
+        margin-right: -0.7em;
+        font-size: 32.8px;
+        line-height: 50px;
+        letter-spacing: 0.7em;
+    }
+    .header__comping-soon {
+        font-size: 30.9px;
+        margin-right: -0.3em;
+        line-height: 250px;
+        letter-spacing: 0.6em;
+    }
+    .comming-soon {
+        top: 220px;
+    }
+    .percentage {
+        position: absolute;
+        top: 410px;
+    }
+    .progress-bar__percent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .progress-bar {
+        width: 220px;
+        height: 15px;
+        top: 390px;
+    }
+    .progress-bar::before {
+        height: 10px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 670px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .heading {
+        padding-top: 160px;
+    }
+    .header__heading {
+        margin-right: -0.7em;
+        font-size: 29.8px;
+        line-height: 50px;
+        letter-spacing: 0.7em;
+    }
+    .header__comping-soon {
+        font-size: 28.9px;
+        margin-right: -0.3em;
+        line-height: 250px;
+        letter-spacing: 0.6em;
+    }
+    .comming-soon {
+        top: 200px;
+    }
+    .percentage {
+        position: absolute;
+        top: 390px;
+    }
+    .progress-bar__percent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .progress-bar {
+        width: 220px;
+        height: 15px;
+        top: 370px;
+    }
+    .progress-bar::before {
+        height: 10px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 600px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .heading {
+        padding-top: 140px;
+    }
+    .header__heading {
+        margin-right: -0.5em;
+        font-size: 29.8px;
+        line-height: 50px;
+        letter-spacing: 0.5em;
+    }
+    .header__comping-soon {
+        font-size: 28.9px;
+        margin-right: -0.3em;
+        line-height: 250px;
+        letter-spacing: 0.6em;
+    }
+    .comming-soon {
+        top: 160px;
+    }
+    .percentage {
+        position: absolute;
+        top: 360px;
+    }
+    .progress-bar__percent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .progress-bar {
+        width: 220px;
+        height: 15px;
+        top: 340px;
+    }
+    .progress-bar::before {
+        height: 10px;
+        top: 2px;
+        left: 3px;
+        bottom: 3px;
+        max-width: calc(65% - 3em);
+        padding: 0em;
+    }
+    .phone-number {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .header__Phone-number {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 520px;
+    }
+}
